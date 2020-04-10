@@ -1,6 +1,13 @@
 import React from 'react';
+import { useSiteMetadata } from '../hooks/useSiteMetadata'
+import {Layout} from '../components/Layout';
 
 export default () => {
-  return <h1>Hello World</h1>;
+  const { title, description } = useSiteMetadata();
+  return (
+  <>
+    <Layout />
+  </>
+  )
 };
 
