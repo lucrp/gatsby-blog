@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `ramosweb.dev`
+    title: `ramosweb.dev`,
     description: `This is my personal blog where I write about coding stuff, technologies I appreciate and use and what I'm learning`
   },
   plugins: [
