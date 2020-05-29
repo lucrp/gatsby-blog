@@ -5,11 +5,11 @@ import styled from 'styled-components';
 
 const IndexWrapper = styled.main`
 
-`
+`;
 
 const PostWrapper = styled.div`
 
-`
+`;
 
 export default ({ data }) => {
   return (
@@ -50,4 +50,3 @@ query SITE_INDEX_QUERY {
   }
 }
 `;
-
